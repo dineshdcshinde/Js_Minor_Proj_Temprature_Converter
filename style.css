@@ -62,18 +62,19 @@ body {
   background-color: transparent;
   border-bottom: 3px solid #fff;
   border-radius: 1rem;
+  color: #fff;
 }
 
 /* For Chrome, Safari, Edge, and Opera */
-.temp-converter input[type="number"]::-webkit-outer-spin-button,
-/* For Chrome, Safari, Edge, and Opera */
-.temp-converter input[type="number"]::-webkit-inner-spin-button {
+.temp-converter input[type="number"]::-webkit-inner-spin-button,
+.temp-converter input[type="number"]::-webkit-outer-spin-button {
+  /* For Chrome, Safari, Edge, and Opera */
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* For Firefox */
 /* For Chrome, Safari, Edge, and Opera */
-.temp-converter input[type="number"] {
-  -moz-appearance: textfield;
+input[type="number"] {
+  appearance: none;
 }
